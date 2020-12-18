@@ -1,5 +1,7 @@
 package soa.eip;
 
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +15,18 @@ public class Router extends RouteBuilder {
     from(DIRECT_URI)
       .log("Body contains \"${body}\"")
       .log("Searching twitter for \"${body}\"!")
+      .process(new MaxProcessor())
       .toD("twitter-search:${body}")
       .log("Body now contains the response from twitter:\n${body}");
   }
+}
+
+class MaxProcessor implements Processor {
+
+  @Override
+  public void process(Exchange exchange) throws Exception {
+    String mensaje = (String) exchange.getIn().getBody();
+    
+  }
+
 }
