@@ -26,7 +26,15 @@ class MaxProcessor implements Processor {
   @Override
   public void process(Exchange exchange) throws Exception {
     String mensaje = (String) exchange.getIn().getBody();
-    
+    String max = "5";
+
+    if(mensaje.contains(" max:")){
+      String aux[] = mensaje.split(" max:");
+      mensaje = aux[0];
+      max = aux[1];
+    }
+
+    exchange.getOut().setBody(mensaje + "?count=" + max);
   }
 
 }
