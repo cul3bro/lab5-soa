@@ -27,10 +27,7 @@ Done:
 - [Create an operator "-" to filter out tweets that contain a keyword](https://github.com/andrewknoll/lab5-soa/tree/test) Andrés Otero has fought and won against Apache Camel documentation. :gift:  
 - [Use Camel for providing a WebSocked endpoint for queries](https://github.com/TheRealFreeman/lab5-soa/tree/gift) Enrique Ruiz has leaned how to setup a WebSocket enpoint with Camel, and (after a review) how to ensure that JSON responses are send back to the client and handled by JavaScript. 
 - [Throttle the route to avoid be banned by Twitter](https://github.com/Kifixo/lab5-soa/tree/test) Daniel Huici has leared a lesson complementary to Alberto Rubio's lesson: sometimes in Apache Camel it is very easy to do powerful things. :gift:
-
-In progress:
-
-- [Enrich the response with moustache](https://camel.apache.org/components/latest/eips/content-enricher.html); remove moustache from the client.
+- [Enrich the response with moustache](https://github.com/jgarciapueyo/lab5-soa/tree/test) Jorge García has moved the moustache template from the front to the back and in the process he has learned a new aggregation strategy. :gift:
 
 Proposed:
 
@@ -62,10 +59,13 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 756308 | [Álvaro Santamaría](https://github.com/SanTa45zgz) |[SanTa45zgz/lab5-soa](https://github.com/SanTa45zgz/lab5-soa/tree/test)     |        | 
 | 758635 | [Daniel Huici Meseguer](https://github.com/Kifixo) |[Kifixo/lab5-soa](https://github.com/Kifixo/lab5-soa/tree/test)     | Throttle the route to avoid be banned by Twitter  | :gift: | 
 | 756308 | [Eduardo Ruiz](https://github.com/eduardoRuizC) |[eduardoRuizC/lab5-soa](https://github.com/eduardoRuizC/lab5-soa/tree/test)     |        | 
-| 758807 | [Jorge Garcia](https://github.com/jgarciapueyo) |[jgarciapueyo/lab5-soa](https://github.com/jgarciapueyo/lab5-soa/tree/test) | Enrich the response with moustache | | 
+| 758807 | [Jorge Garcia](https://github.com/jgarciapueyo) |[jgarciapueyo/lab5-soa](https://github.com/jgarciapueyo/lab5-soa/tree/test) | Enrich the response with moustache | :gift: | 
 | 723883 | [Jorge Turbica](https://github.com/turbica) |[turbica/lab5-soa](https://github.com/turbica/lab5-soa/tree/test)     |        |
 | 740241 | [Sergio Álvarez](https://github.com/sergio-alv) |[sergio-alv/lab5-soa](https://github.com/sergio-alv/lab5-soa/tree/test)     |        | 
 | 755769 | [Saúl Flores](https://github.com/saul205) |[saul205/lab5-soa](https://github.com/saul205/lab5-soa/tree/test)     |        | 
 | 739324 | [elenamv13](https://github.com/elenamv13)|[elenamv13/lab5-soa](https://github.com/elenamv13/lab5-soa/tree/test)| | |
 | 719974 | [Sergio Martínez](https://github.com/Sergio-Martinez-97) |[Sergio-Martinez-97/lab5-soa](https://github.com/Sergio-Martinez-97/lab5-soa/tree/test)     |        |
 | 738233 | [Sergio Torres](https://github.com/cul3bro) |[cul3bro/lab5-soa](https://github.com/cul3bro/lab5-soa/tree/test)     |        |
+| 738737 | [Víctor Jarreta](https://github.com/VJarreta) |[VJarreta/lab5-soa](https://github.com/VJarreta/lab5-soa/tree/test)     |        | 
+| 735041 | [Eduardo Díaz](https://github.com/ediazl) |[ediazl/lab5-soa](https://github.com/ediazl/lab5-soa/tree/test)     |        | 
+| 737070 | [Daniel Barceló](https://github.com/DaniBarcelo) |[DaniBarcelo/lab5-soa](https://github.com/DaniBarcelo/lab5-soa/tree/test)     |        | 
